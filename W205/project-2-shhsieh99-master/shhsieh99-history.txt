@@ -1,0 +1,21 @@
+  192  cd w205/
+  193  git clone https://github.com/mids-w205-schioberg/project-2-shhsieh99.git
+  194  cd project-
+  195  cd project-2-shhsieh99/
+  196  git branch assignment
+  197  git checkout assignment
+  198  cp ../course-content/07-Sourcing-Data/docker-compose.yml .
+  199  ls
+  200  docker-compose up -d
+  201  docker-compose down
+  202  docker ps -a
+  203  docker network ls
+  204  docker-compose up -d
+  205  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/ME6hjp
+  206  docker-compose exec kafka kafka-topics --create --topic assessment --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  207  docker-compose exec kafka kafka-topics --describe --topic assessment --zookeeper zookeeper:32181
+  208  docker-compose exec mids bash -c "cat /w205/project-2-shhsieh99/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t assessments && echo 'Produced 100 messages.'"
+  209  docker-compose exec mids bash -c "cat /w205/project-2-shhsieh99/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t assessment"
+  210  docker-compose exec spark pyspark
+  211  ls
+  212  history > shhsieh99-history.txt

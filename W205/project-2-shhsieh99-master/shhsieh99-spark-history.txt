@@ -1,0 +1,24 @@
+messages = spark .read .format("kafka") .option("kafka.bootstrap.servers", "kafka:29092") .option("subscribe","assessment") .option("startingOffsets", "earliest") .option("endingOffsets", "latest") .load()
+messages.printSchema()
+messages.show()
+messages.cache()
+assessments = messages.select(messages.value.cast('string'))
+assessments.show()
+assessments.printSchema()
+assessments.count()
+assessments.select('value').take(1)
+assessments.select('value').take(1)[0].value
+import json
+first_message = json.loads(assessments.select('value').take(1)[0].value)
+first_message
+first_message['exam_name']
+assessments.write.parquet("/tmp/assessments")
+assessments.show()
+import sys
+sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8', buffering=1)
+assessments.rdd.map(lambda x: json.loads(x.value)).toDF().show()
+extracted_assessments = assessments.rdd.map(lambda x: json.loads(x.value)).toDF()
+extracted_assessments.show()
+extracted_assessments.printSchema()
+extracted_assessments.write.parquet("/tmp/extracted_assessments")
+exit()
