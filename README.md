@@ -1,8 +1,6 @@
 # MIDS Data Science Portfolio
----
 Data science projects I have completed while studying in the MIDS program. 
 ## Contents
----
 ### Data Engineering Projects
 1. Query Project - using SQL while learning about Google Cloud Platform (GCP) and BiqQuery
 2. Tracking User Activity - using Kafka and Spark to send messages through the pipeline
