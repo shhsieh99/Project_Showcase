@@ -19,6 +19,11 @@ A look into "How is the graffiti in New York City impacted by the city and its p
 3. Digit Classification with Naive Bayes
 4. Topic Classification with Naive Bayes
 5. Poisonous Mushrooms with PCA and GMM
+### Natural Language Processing
+1. Data Pipeline - Walkthrough of our work from EDA to building our model
+2. Data Retrieval - Because the dataset we used was so large, we used this notebook to extract the subset of data we used in our model
+3. Final Paper - Detailed breakdown of our work and project
+4. Final Presentation - brief summary of our project
 ### Shooter Game (OOP)
 Object Oriented Programming Project of creating a simple 2-D Shooting Game with an idea similar to Battleship 
 1. Design Document - original project idea
@@ -30,5 +35,7 @@ Object Oriented Programming Project of creating a simple 2-D Shooting Game with 
 2. hypothesis_lab.rmd - full report along with R queries 
 3. regression_study.pdf - report on linear regression lab on facebook user engagement 
 4. regression_study.rmd - full report along with R queries
+### Paper vs Digital Experiment 
+We conducted a full experiment testing our research question "Does handwriting digital notes improve recognition and recall compared to paper note-taking?" This paper goes into detail of how we conducted our experiment and the model we built to determine the answer to our research question. 
 ### Research Design
 A Research Design Proposal to propose a study on quick-quits in an industry 
