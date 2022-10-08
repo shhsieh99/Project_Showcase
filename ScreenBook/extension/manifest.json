@@ -1,0 +1,29 @@
+{
+	"name": "ScreenBook",
+	"description": "Your personalized content moderation",
+	"version": "1.0",
+	"manifest_version": 3,
+    "host_permissions": [
+		"https://8r9rond8o8.execute-api.us-west-2.amazonaws.com/*",
+        "https://postman-echo.com/*",
+		"http://*/*", 
+		"https://*/*"
+    ],
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"scripting",
+		"downloads",
+		"contextMenus",
+		"notifications",
+		"storage",
+		"webNavigation"
+	],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"icons": {
+		"48": "/assets/icons/48.png",
+		"128": "/assets/icons/128.png"
+	}
+}
