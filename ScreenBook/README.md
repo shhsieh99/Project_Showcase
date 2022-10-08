@@ -1,4 +1,4 @@
-![alt text](https://github.com/shhsieh99/Project_Showcase/ScreenBook/extension/assets/icons/48.png)
+![alt text](https://github.com/shhsieh99/Project_Showcase/blob/main/ScreenBook/extension/assets/icons/48.png "Logo")
 ScreenBook
 [Landing Page](https://projectscreenbook.wordpress.com/)
 [ISchool Project Page](https://www.ischool.berkeley.edu/projects/2022/screenbook)
