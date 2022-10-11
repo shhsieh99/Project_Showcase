@@ -9,7 +9,7 @@ Conducted a full experiment testing our research question "Does handwriting digi
 ##### Graffiti Tracking Data Analysis
 A look into "How is the graffiti in New York City impacted by the city and its people?"
 ##### Machine Learning
-* "Facial Keypoints" final project which creates a model to accurately assess facial keypoints of a given image
+"Facial Keypoints" final project which creates a model to accurately assess facial keypoints of a given image
 * 4 supplementary projects exploring machine learning concepts
 ##### Natural Language Processing
 We created a HuggingFace Keras Model with BERT Tokenization to attempt to tackle the authorship attribution issue.
