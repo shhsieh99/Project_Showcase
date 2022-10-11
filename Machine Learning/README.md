@@ -3,9 +3,9 @@
 
 ## Contents
 1. Facial Keypoints - Creating own model to accurately assess keypoints on a given image
-- Final Presentation - report of our idea, process, and results
-- EDA and OLS - our initial exploratory data analysis and model with OLS
-- CNN - our decided model with CNN and accuracy
+    - Final Presentation - report of our idea, process, and results
+    - EDA and OLS - our initial exploratory data analysis and model with OLS
+    - CNN - our decided model with CNN and accuracy
 2. Digit Classification with KNN
 3. Digit Classification with Naive Bayes
 4. Topic Classification with Naive Bayes
