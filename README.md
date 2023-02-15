@@ -13,6 +13,8 @@ A look into "How is the graffiti in New York City impacted by the city and its p
 * 4 supplementary projects exploring machine learning concepts
 ##### Natural Language Processing
 We created a HuggingFace Keras Model with BERT Tokenization to attempt to tackle the authorship attribution issue.
+##### Scrabble Rating
+In games of Scrabble where players versus bots, we created a rank prediction model based on the game given attributes about the game played.
 ##### ScreenBook
 MIDS Capstone project. Created a web extension that identifies suicidal language that could be triggering and censors it. Created a model through AWS and connected the model to chrome extensions.
 ##### Shooter Game (OOP)
